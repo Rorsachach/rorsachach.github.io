@@ -46,7 +46,7 @@ html {
   padding: 0 10px;
 }
 
-@-webkit-keyframes 'beats' {
+/* @-webkit-keyframes 'beats' {
   from {
     -moz-transform: scale(1, 1);
     -webkit-transform: scale(1, 1);
@@ -82,12 +82,12 @@ html {
   top: 75%;
 
   -webkit-animation-name: "beats";
-  /*动画名称，需要跟@keyframes定义的名称一致*/
+  动画名称，需要跟@keyframes定义的名称一致
   -webkit-animation-duration: 2s;
-  /*动画持续的时间长*/
+  动画持续的时间长
   -webkit-animation-iteration-count: infinite;
-  /*动画循环播放的次数*/
-}
+  动画循环播放的次数
+} */
 
 .slide2 {
   scroll-snap-align: center;
@@ -101,7 +101,7 @@ html {
   background: #eeeeee;
 }
 
-.container {
+.container2 {
   background: #eeeeee;
   width: 100%;
   height: 83%;
@@ -132,9 +132,17 @@ box-shadow:  8px 8px 16px #a7a7a7,
 .left{
   width: 47.6%;
   height: 97%;
-  background: red;
   float: left;
   margin: 1%;
+}
+
+.left hr{
+  width: 80%;
+  size: 10;
+  color: #000000;
+  margin: 10%;
+  border-radius: 2px;
+  border-left: 0;
 }
 
 .center{
@@ -146,4 +154,35 @@ box-shadow:  8px 8px 16px #a7a7a7,
     height: 80%;
     background: #c0c0c0;
     border-radius: 20px;
+}
+
+.slide3{
+  scroll-snap-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+  background: url(img/note.jpg);
+  background-size: 100% 100%;
+}
+
+.slide4{
+  scroll-snap-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  width: 100%;
+  height: 1007px;
+}
+
+.container4{
+  width: 100%;
+  height: 100%;
+  background: #f5f4f1;
 }
